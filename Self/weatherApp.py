@@ -10,8 +10,8 @@ OPENWEATHER_API_KEY =os.getenv("OPENWEATHER_API_KEY")
 #Get the llm model
 from langchain.chat_models import init_chat_model
 
-llm = init_chat_model(model="llama-3.3-70b-versatile", model_provider="Groq", temperature=0.8, max_tokens=1000)
-#llm = init_chat_model(model="gpt-5.4-mini", model_provider="OpenAI", temperature=0.8, max_tokens=1000)
+#llm = init_chat_model(model="llama-3.1-8b-instant", model_provider="Groq", temperature=0.8, max_tokens=1000)
+llm = init_chat_model(model="gpt-5.4-mini", model_provider="OpenAI", temperature=0.8, max_tokens=1000)
 test_message = llm.invoke("hi").content
 print(test_message)
 
