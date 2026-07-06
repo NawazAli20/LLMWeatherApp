@@ -1,14 +1,15 @@
-# Chatbot
-Chatbot is implemeted in ./LLMsIntro/chatbot.py
+# WeatherApp
+Chatbot is implemeted in ./LLMsIntro/weatherAPPs.py
 
 ### How to run 
 
-uv run chatbot.py
+uv run weatherAPPs.py
 
 # Repo and Dependencies Installations commands 
 
 Resource Links: 
-
+- [Complete youtube playlist](https://www.youtube.com/playlist?list=PLfpB0rPkNb_8)
+- [OpenWeatherMap](https://openweathermap.org/)
 - [UV github repo](https://github.com/astral-sh/uv)
 - [langchain docs]()
 - [Groq API Key](https://console.groq.com/keys)
